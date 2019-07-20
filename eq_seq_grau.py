@@ -1,4 +1,5 @@
 import math
+import time
 
 def eq (a,b,c):
     delta = (b ** 2) / (4 * a * c)
@@ -12,3 +13,5 @@ c = float(input('Qual o valor de C?:'))
 
 resultado = eq(a,b,c)
 print(f"Os resultados foram: {resultado[0]} e {resultado[1]}")
+
+time.sleep(600)

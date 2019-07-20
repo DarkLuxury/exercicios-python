@@ -1,3 +1,5 @@
+import time
+
 def comp (raio):
     comprimento = 2 * raio * 3.14
     return comprimento
@@ -8,3 +10,5 @@ def ar (raio):
 
 raio = float(input("Qual o raio?: "))
 print(f"O comprimento desta circunferência é de: {comp(raio)} e a área é de: {ar(raio)}")
+
+time.sleep(600)
